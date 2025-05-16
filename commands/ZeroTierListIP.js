@@ -43,7 +43,7 @@ module.exports = {
 
     listMembers().then(result => {
       if(result)
-        message.channel.reply(result);
+        message.reply(result);
     })
   },
 };

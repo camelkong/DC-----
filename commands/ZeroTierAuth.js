@@ -3,7 +3,7 @@ module.exports = {
     description: 'List',
     execute(message, args) {
         if (args.length < 2) {
-            message.channel.reply('!認證 <ID> <Y/N>');
+            message.reply('!認證 <ID> <Y/N>');
             message.channel.send('算了這個白癡隊友連中文都看不懂');
             return;
         }
@@ -30,7 +30,7 @@ module.exports = {
                 }
               }
             );
-            message.channel.reply('狀態更新結束啦');
+            message.reply('狀態更新結束啦');
             return response;
         
           } catch (error) {
